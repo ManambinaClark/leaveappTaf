@@ -1,0 +1,107 @@
+﻿<Window x:Class="LeaveAppWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LeaveAppWPF"
+        mc:Ignorable="d"
+        Title="LeaveApp" Height="720" Width="1280"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="15*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--Header-->
+        <Grid Grid.Row="0">
+            <DockPanel Background="#eeeeec">
+
+                <materialDesign:PopupBox Margin="0,0,5,0" HorizontalAlignment="Right" PlacementMode="BottomAndAlignRightEdges" StaysOpen="False">
+                    <StackPanel>
+                        <Button Content="Mon Profil">
+                        </Button>
+                        <Button Content="Parametre"/>
+                        <Separator/>
+                        <Button Content="Deconnexion"/>
+                    </StackPanel>
+                </materialDesign:PopupBox>
+
+            </DockPanel>
+        </Grid>
+
+        <!--Header2-->
+
+        <Grid Grid.Row="1">
+            <Border BorderBrush="black" BorderThickness="0,0.09,0,0.09">
+                <Border.Effect>
+                    <DropShadowEffect BlurRadius="100" Color="Black" Direction="320" ShadowDepth="900" Opacity="2"/>
+                </Border.Effect>
+
+                <DockPanel >
+
+
+                    <TextBlock FontWeight="DemiBold" FontSize="25" VerticalAlignment="Center" Margin="10,0,0,0" Text="LeaveApp"></TextBlock>
+                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Right" Margin="5,0,20,0" Text="Bienvenue"></TextBlock>
+                    
+                    
+                </DockPanel>
+            </Border>
+        </Grid>
+        <!--Corps-->
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="7*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <!--Menu gauche-->
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"></RowDefinition>
+                    <RowDefinition Height="30"></RowDefinition>
+                    <RowDefinition Height="6*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <!--Petit logo-->
+                <Grid Grid.Row="0">
+                    <StackPanel Background="#ffffff">
+                    <Image Margin="0,20,0,0" VerticalAlignment="Center" Source="Images/Auxipress.png"></Image>
+                    
+                    </StackPanel>
+                </Grid>
+
+                <Grid Grid.Row="1">
+                    <StackPanel Orientation="Horizontal" Background="#003d64">
+                        <materialDesign:PackIcon Margin="10,0,0,0"  VerticalAlignment="Center" Kind="ViewDashboard" />
+                        <TextBlock Margin="10,0,0,0" FontWeight="DemiBold" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Vue d'ensemble"></TextBlock>
+                    </StackPanel>
+                </Grid>
+
+                <!--Zone bouttons-->
+                <Grid Grid.Row="2">
+
+                    <StackPanel Orientation="Vertical" Background="#004c80">
+                     
+                    </StackPanel>
+                </Grid>
+            </Grid>
+
+            <!--Corps pour les usercontrol-->
+
+            <Grid Grid.Column="1">
+                <DockPanel Background="#eeeeec">
+
+                </DockPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

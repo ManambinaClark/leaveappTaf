@@ -1,0 +1,82 @@
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\LeaveAppWPF.exe.config
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\LeaveAppWPF.exe
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\LeaveAppWPF.pdb
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\obj\Debug\LeaveAppWPF.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\obj\Debug\MainWindow.g.cs
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\obj\Debug\App.g.cs
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\obj\Debug\LeaveAppWPF_MarkupCompile.cache
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\obj\Debug\LeaveAppWPF_MarkupCompile.lref
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\obj\Debug\MainWindow.baml
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\obj\Debug\LeaveAppWPF.g.resources
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\obj\Debug\LeaveAppWPF.Properties.Resources.resources
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\obj\Debug\LeaveAppWPF.csproj.GenerateResource.Cache
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\obj\Debug\LeaveAppWPF.exe
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\obj\Debug\LeaveAppWPF.pdb
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\obj\Debug\App.baml
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\obj\Debug\View\NewStaff.g.cs
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\obj\Debug\View\NewStaff.baml
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\obj\Debug\View\Dashboard.g.cs
+C:\Users\admin\Desktop\LeaveAppWPF\LeaveAppWPF\obj\Debug\View\Dashboard.baml
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\LeaveAppWPF.exe.config
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\LeaveAppWPF.exe
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\LeaveAppWPF.pdb
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\LeaveAppWPF.exe
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\LeaveAppWPF.pdb
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\LeaveAppWPF.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\MainWindow.g.cs
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\View\Dashboard.g.cs
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\View\NewStaff.g.cs
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\App.g.cs
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\LeaveAppWPF_MarkupCompile.cache
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\LeaveAppWPF_MarkupCompile.lref
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\App.baml
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\MainWindow.baml
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\View\Dashboard.baml
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\View\NewStaff.baml
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\LeaveAppWPF.g.resources
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\LeaveAppWPF.Properties.Resources.resources
+C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\LeaveAppWPF.csproj.GenerateResource.Cache
