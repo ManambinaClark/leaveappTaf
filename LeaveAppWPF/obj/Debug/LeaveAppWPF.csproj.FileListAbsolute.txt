@@ -80,3 +80,44 @@ C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\View\NewStaff.baml
 C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\LeaveAppWPF.g.resources
 C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\LeaveAppWPF.Properties.Resources.resources
 C:\Users\admin\Desktop\Nouveau dossier\LeaveAppWPF\obj\Debug\LeaveAppWPF.csproj.GenerateResource.Cache
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\LeaveAppWPF.exe.config
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\obj\Debug\LeaveAppWPF.exe
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\obj\Debug\LeaveAppWPF.pdb
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\LeaveAppWPF.exe
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\LeaveAppWPF.pdb
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\EntityFramework.dll
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\MaterialDesignColors.dll
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\EntityFramework.xml
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\obj\Debug\LeaveAppWPF.csprojResolveAssemblyReference.cache
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\obj\Debug\MainWindow.g.cs
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\obj\Debug\View\Dashboard.g.cs
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\obj\Debug\View\NewStaff.g.cs
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\obj\Debug\App.g.cs
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\obj\Debug\LeaveAppWPF_MarkupCompile.cache
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\obj\Debug\LeaveAppWPF_MarkupCompile.lref
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\obj\Debug\App.baml
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\obj\Debug\MainWindow.baml
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\obj\Debug\View\Dashboard.baml
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\obj\Debug\View\NewStaff.baml
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\obj\Debug\LeaveAppWPF.g.resources
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\obj\Debug\LeaveAppWPF.Properties.Resources.resources
+C:\Users\ManambinaClark\Desktop\lavapp\leaveappTaf-master\LeaveAppWPF\obj\Debug\LeaveAppWPF.csproj.GenerateResource.Cache

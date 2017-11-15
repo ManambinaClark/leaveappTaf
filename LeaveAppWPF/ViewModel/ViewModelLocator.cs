@@ -43,6 +43,7 @@ namespace LeaveAppWPF.ViewModel
             ////}
 
             SimpleIoc.Default.Register<MainViewModel>();
+            SimpleIoc.Default.Register<DashboardViewModel>();
         }
 
         public MainViewModel Main
@@ -50,6 +51,14 @@ namespace LeaveAppWPF.ViewModel
             get
             {
                 return ServiceLocator.Current.GetInstance<MainViewModel>();
+            }
+        }
+
+        public DashboardViewModel DashboardVM
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<DashboardViewModel>();
             }
         }
         

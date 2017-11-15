@@ -13,7 +13,9 @@
         TextOptions.TextFormattingMode="Ideal" 
         TextOptions.TextRenderingMode="Auto"        
         Background="{DynamicResource MaterialDesignPaper}"
-        FontFamily="{DynamicResource MaterialDesignFont}">
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        >
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
@@ -22,17 +24,35 @@
         </Grid.RowDefinitions>
         <!--Header-->
         <Grid Grid.Row="0">
-            <DockPanel Background="#eeeeec">
+            <DockPanel Background="#061e31">
+                <Menu  Background="#061e31"  HorizontalAlignment="Right"   IsMainMenu="True">
+                    <MenuItem Foreground="White" Background="#061e31" Height="41" Width="57">
+                        <MenuItem.Icon>
+                            <materialDesign:PackIcon Kind="AccountCircle" />
+                        </MenuItem.Icon>
+                        <MenuItem Foreground="White" Background="#003d64" Header="Mon Profil">
+                            <MenuItem.Icon>
+                                <materialDesign:PackIcon Kind="Account" />
+                            </MenuItem.Icon>
+                        </MenuItem>
 
-                <materialDesign:PopupBox Margin="0,0,5,0" HorizontalAlignment="Right" PlacementMode="BottomAndAlignRightEdges" StaysOpen="False">
-                    <StackPanel>
-                        <Button Content="Mon Profil">
-                        </Button>
-                        <Button Content="Parametre"/>
-                        <Separator/>
-                        <Button Content="Deconnexion"/>
-                    </StackPanel>
-                </materialDesign:PopupBox>
+
+
+                        <MenuItem Margin="0,4,0,0" Foreground="White" Background="#003d64"  Header="Paramètre" >
+                            <MenuItem.Icon>
+                                <materialDesign:PackIcon Kind="Settings" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+
+
+
+                        <MenuItem Margin="0,4,0,0" Foreground="White" Background="#003d64"  Header="Déconnexion" >
+                            <MenuItem.Icon>
+                                <materialDesign:PackIcon Kind="Logout" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+                    </MenuItem>
+                </Menu>
 
             </DockPanel>
         </Grid>
@@ -50,8 +70,8 @@
 
                     <TextBlock FontWeight="DemiBold" FontSize="25" VerticalAlignment="Center" Margin="10,0,0,0" Text="LeaveApp"></TextBlock>
                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Right" Margin="5,0,20,0" Text="Bienvenue"></TextBlock>
-                    
-                    
+
+
                 </DockPanel>
             </Border>
         </Grid>
@@ -74,14 +94,14 @@
                 <!--Petit logo-->
                 <Grid Grid.Row="0">
                     <StackPanel Background="#ffffff">
-                    <Image Margin="0,20,0,0" VerticalAlignment="Center" Source="Images/Auxipress.png"></Image>
-                    
+                        <Image Margin="0,20,0,0" VerticalAlignment="Center" Source="Images/Auxipress.png"></Image>
+
                     </StackPanel>
                 </Grid>
 
                 <Grid Grid.Row="1">
-                    <StackPanel Orientation="Horizontal" Background="#003d64">
-                        <materialDesign:PackIcon Margin="10,0,0,0"  VerticalAlignment="Center" Kind="ViewDashboard" />
+                    <StackPanel Orientation="Horizontal" Background="#061e31">
+                        <materialDesign:PackIcon Foreground="White" Margin="10,0,0,0"  VerticalAlignment="Center" Kind="ViewDashboard" />
                         <TextBlock Margin="10,0,0,0" FontWeight="DemiBold" Foreground="White" HorizontalAlignment="Right" VerticalAlignment="Center" Text="Vue d'ensemble"></TextBlock>
                     </StackPanel>
                 </Grid>
@@ -89,8 +109,8 @@
                 <!--Zone bouttons-->
                 <Grid Grid.Row="2">
 
-                    <StackPanel Orientation="Vertical" Background="#004c80">
-                     
+                    <StackPanel Orientation="Vertical" Background="#003d64">
+
                     </StackPanel>
                 </Grid>
             </Grid>
@@ -98,7 +118,8 @@
             <!--Corps pour les usercontrol-->
 
             <Grid Grid.Column="1">
-                <DockPanel Background="#eeeeec">
+                <DockPanel>
+
 
                 </DockPanel>
             </Grid>
