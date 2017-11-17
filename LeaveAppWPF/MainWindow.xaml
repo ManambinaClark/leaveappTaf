@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LeaveAppWPF"
         mc:Ignorable="d"
-        Title="LeaveApp" Height="720" Width="1280"
+        Title="LeaveApp" Height= "900" Width="1320"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
         TextElement.FontWeight="Regular"
@@ -14,8 +14,7 @@
         TextOptions.TextRenderingMode="Auto"        
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
-        >
-
+        DataContext="{Binding Main,Source={StaticResource Locator}}">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
@@ -26,7 +25,7 @@
         <Grid Grid.Row="0">
             <DockPanel Background="#061e31">
                 <Menu  Background="#061e31"  HorizontalAlignment="Right"   IsMainMenu="True">
-                    <MenuItem Foreground="White" Background="#061e31" Height="41" Width="57">
+                    <MenuItem Foreground="White" Background="#061e31" Height="41" Width="51">
                         <MenuItem.Icon>
                             <materialDesign:PackIcon Kind="AccountCircle" />
                         </MenuItem.Icon>
@@ -66,13 +65,12 @@
                 </Border.Effect>
 
                 <DockPanel >
-
-
                     <TextBlock FontWeight="DemiBold" FontSize="25" VerticalAlignment="Center" Margin="10,0,0,0" Text="LeaveApp"></TextBlock>
-                    <TextBlock VerticalAlignment="Center" HorizontalAlignment="Right" Margin="5,0,20,0" Text="Bienvenue"></TextBlock>
-
-
-                </DockPanel>
+                    <DockPanel HorizontalAlignment="Right">
+                        <TextBlock VerticalAlignment="Center"  Margin="5,0,0,0" Text="Bienvenue"></TextBlock>
+                        <TextBlock VerticalAlignment="Center"  Margin="3,0,20,0" Text="{Binding UserName}"></TextBlock>
+                    </DockPanel>
+                    </DockPanel>
             </Border>
         </Grid>
         <!--Corps-->
@@ -109,8 +107,12 @@
                 <!--Zone bouttons-->
                 <Grid Grid.Row="2">
 
-                    <StackPanel Orientation="Vertical" Background="#003d64">
+                    <StackPanel  Background="#003d64">
 
+                        <Button Command="{Binding GoToDashboard }"  BorderBrush="#003d64" Margin="0,10,0,0" Background="#003d64" Content="Tableau de Bord"> </Button>
+                        <Button Command="{Binding GoToMyLeave}" BorderBrush="#003d64" Margin="0,10,0,0" Background="#003d64" Content="Mes congés"></Button>
+                        <Button Command="{Binding GoToAskLeave}" BorderBrush="#003d64" Margin="0,10,0,0" Background="#003d64" Content="Demander Congé"></Button>
+                  
                     </StackPanel>
                 </Grid>
             </Grid>
@@ -118,10 +120,10 @@
             <!--Corps pour les usercontrol-->
 
             <Grid Grid.Column="1">
-                <DockPanel>
-
-
-                </DockPanel>
+                
+                    
+                    <UserControl Margin="20" Content="{Binding CurrentView,Mode=OneWay}"/>
+                
             </Grid>
         </Grid>
     </Grid>

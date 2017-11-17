@@ -1,4 +1,7 @@
-﻿using GalaSoft.MvvmLight;
+﻿using System;
+using System.Windows.Input;
+using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.Command;
 
 namespace LeaveAppWPF.ViewModel
 {
@@ -15,6 +18,23 @@ namespace LeaveAppWPF.ViewModel
         /// </summary>
         public DashboardViewModel()
         {
+            ViewStaff = new RelayCommand(StaffView);
+
         }
+        #region Methodes
+        private void StaffView()
+        {
+            ViewModelLocator.Main.CurrentView = ViewModelLocator.ListStaffVM;
+        }
+        #endregion
+
+
+        #region Arguments
+        public ICommand ViewStaff { get; set; }
+        public ICommand ViewStaffLeave{ get; set; }
+        public ICommand ViewReport { get; set; }
+        #endregion
+
+
     }
 }

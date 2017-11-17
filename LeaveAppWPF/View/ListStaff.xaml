@@ -1,0 +1,61 @@
+﻿<UserControl x:Class="LeaveAppWPF.View.ListStaff"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LeaveAppWPF.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="980"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             DataContext="{Binding ListStaffVM,Source={StaticResource Locator}}"
+             >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition Height="12*"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--MenuHaut-->
+        <Grid>
+            <StackPanel Orientation="Horizontal">
+
+                <ToolBarTray Background="#fafafa">
+                    <ToolBar Background="#fafafa" Style="{DynamicResource MaterialDesignToolBar}" ClipToBounds="False" Margin="0,0,0,60">
+                        <Button Command="{Binding  GoBack}" ToolTip="Retour">
+                            <materialDesign:PackIcon Kind="ArrowLeft" />
+                        </Button>
+
+                        <Separator />
+
+
+                        <Button ToolTip="Chercher">
+                            <materialDesign:PackIcon Kind="Magnify" />
+                        </Button>
+                        <Separator />
+
+                    </ToolBar>
+                </ToolBarTray>
+
+                <TextBox Foreground="#061e31" VerticalAlignment="Center" Margin="10,0,0,-3" Width="200"  materialDesign:HintAssist.Hint="Prénom"></TextBox>
+                <ComboBox Foreground="#061e31" VerticalAlignment="Center" Margin="30,0,0,0" Width="200"  materialDesign:HintAssist.Hint="Departement"></ComboBox>
+
+            </StackPanel>
+        </Grid>
+
+        <!--Corps-->
+        <Grid Grid.Row="1">
+
+        </Grid>
+
+        <!--Footer-->
+
+        <Grid Grid.Row="2">
+
+            <Border Margin="0,0,0,0" BorderBrush="black" BorderThickness="0,0.09,0,0">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock VerticalAlignment="Center">Resultat</TextBlock>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</UserControl>

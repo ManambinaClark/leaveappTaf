@@ -43,10 +43,32 @@ namespace LeaveAppWPF.ViewModel
             ////}
 
             SimpleIoc.Default.Register<MainViewModel>();
+            SimpleIoc.Default.Register<NewStaffViewModel>();
             SimpleIoc.Default.Register<DashboardViewModel>();
+            SimpleIoc.Default.Register<MyLeaveViewModel>();
+            SimpleIoc.Default.Register<AskLeaveViewModel>();
+            SimpleIoc.Default.Register<ListStaffViewModel>();
+
+
         }
 
-        public MainViewModel Main
+        public static ListStaffViewModel ListStaffVM
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<ListStaffViewModel>();
+            }
+        }
+
+        public static AskLeaveViewModel AskLeaveVM
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<AskLeaveViewModel>();
+            }
+        }
+
+        public static MainViewModel Main
         {
             get
             {
@@ -54,14 +76,29 @@ namespace LeaveAppWPF.ViewModel
             }
         }
 
-        public DashboardViewModel DashboardVM
+        public static MyLeaveViewModel MyLeaveVM
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<MyLeaveViewModel>();
+            }
+        }
+
+        public static DashboardViewModel DashboardVM
         {
             get
             {
                 return ServiceLocator.Current.GetInstance<DashboardViewModel>();
             }
         }
-        
+        public static NewStaffViewModel NewStaffVM
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<NewStaffViewModel>();
+            }
+        }
+
         public static void Cleanup()
         {
             // TODO Clear the ViewModels
