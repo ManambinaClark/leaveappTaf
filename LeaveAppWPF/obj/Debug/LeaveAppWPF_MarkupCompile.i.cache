@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\admin\Desktop\leaveappTaf\LeaveAppWPF\obj\Debug\
+H:\ito\leaveappTaf\LeaveAppWPF\obj\Debug\
 LeaveAppWPF
 none
 false
 DEBUG;TRACE
-C:\Users\admin\Desktop\leaveappTaf\LeaveAppWPF\App.xaml
-6-744626070
+H:\ito\leaveappTaf\LeaveAppWPF\App.xaml
+9479227504
 
-21-1083067628
-761915536155
-MainWindow.xaml;View\AskLeave.xaml;View\Dashboard.xaml;View\ListStaff.xaml;View\MyLeave.xaml;View\NewStaff.xaml;
+26249942549
+251072456967
+Login.xaml;MainWindow.xaml;View\AskLeave.xaml;View\Dashboard.xaml;View\ListStaff.xaml;View\ListStaffLeave.xaml;View\MyLeave.xaml;View\NewStaff.xaml;View\tst.xaml;
 
 True
 
