@@ -48,15 +48,33 @@ namespace LeaveAppWPF.ViewModel
             SimpleIoc.Default.Register<MyLeaveViewModel>();
             SimpleIoc.Default.Register<AskLeaveViewModel>();
             SimpleIoc.Default.Register<ListStaffViewModel>();
+            SimpleIoc.Default.Register<ListStaffLeaveViewModel>();
+            SimpleIoc.Default.Register<LoginViewModel>();
+         
 
 
         }
 
+        public static LoginViewModel LoginVM
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<LoginViewModel>();
+            }
+        }
         public static ListStaffViewModel ListStaffVM
         {
             get
             {
                 return ServiceLocator.Current.GetInstance<ListStaffViewModel>();
+            }
+        }
+
+        public static ListStaffLeaveViewModel ListStaffLeaveVM
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<ListStaffLeaveViewModel>();
             }
         }
 

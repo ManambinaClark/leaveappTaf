@@ -19,12 +19,24 @@ namespace LeaveAppWPF.ViewModel
         public DashboardViewModel()
         {
             ViewStaff = new RelayCommand(StaffView);
+            ViewStaffLeave = new RelayCommand(StaffLeaveView);
 
         }
+
+        
         #region Methodes
+
+        private void StaffLeaveView()
+        {
+            ViewModelLocator.Main.CurrentView = ViewModelLocator.ListStaffLeaveVM;
+           
+            
+        }
+
         private void StaffView()
         {
             ViewModelLocator.Main.CurrentView = ViewModelLocator.ListStaffVM;
+
         }
         #endregion
 
@@ -33,8 +45,10 @@ namespace LeaveAppWPF.ViewModel
         public ICommand ViewStaff { get; set; }
         public ICommand ViewStaffLeave{ get; set; }
         public ICommand ViewReport { get; set; }
+        public ICommand AddDepartment { get; set; }
         #endregion
 
 
     }
+
 }

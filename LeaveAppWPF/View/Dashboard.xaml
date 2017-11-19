@@ -11,10 +11,10 @@
     <Grid>
         <Grid.RowDefinitions>
 
-            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition Height="40"></RowDefinition>
-            <RowDefinition Height="1.5*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
 
         </Grid.RowDefinitions>
         <!--Menu haut-->
@@ -30,16 +30,19 @@
         </Grid>
         <!--Information-->
         <Grid Grid.Row="1">
-            <StackPanel Margin="0,0,0,0" Orientation="Horizontal">
+            <StackPanel VerticalAlignment="Center" Margin="0,0,0,0" Orientation="Horizontal">
 
                 <!--info1-->
 
-                <materialDesign:Card  Margin="4 4 0 0" Background="#569691"
+                <materialDesign:Card Height="190"  Margin="4 4 0 0" Background="#569691"
                   Foreground="{DynamicResource PrimaryHueDarkForegroundBrush}"
                   Width="200"
                   Padding="8">
                     <StackPanel Orientation="Vertical">
                         <TextBlock HorizontalAlignment="Center" FontWeight="Bold" Margin="16 16 12 8" FontSize="16">Employés</TextBlock>
+                        <StackPanel Orientation="Horizontal">
+                            
+                            <StackPanel>
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon VerticalAlignment="Center" Kind="GenderMale" />
                             <TextBlock VerticalAlignment="Center" FontWeight="DemiBold" Margin="4 4 16 0">Homme</TextBlock>
@@ -50,16 +53,17 @@
                             <TextBlock VerticalAlignment="Center"  FontWeight="DemiBold" Margin="4 4 16 0">Femme</TextBlock>
                             <TextBlock HorizontalAlignment="Right" FontWeight="Bold" VerticalAlignment="Center" Margin="10 4 16 0" >25</TextBlock>
                         </StackPanel>
-
-
-                        <Separator Style="{StaticResource MaterialDesignLightSeparator}"/>
-                        <StackPanel Margin="8 0 8 8" Orientation="Horizontal" HorizontalAlignment="Center">
-                            <TextBlock FontWeight="Bold" FontSize="30">125</TextBlock>
-
+                          </StackPanel>
+                           
+                            <TextBlock VerticalAlignment="Center" FontWeight="Bold" FontSize="20">125</TextBlock>
                         </StackPanel>
-                        <Separator Style="{StaticResource MaterialDesignLightSeparator}"/>
-                        <StackPanel Margin="8 0 8 8" Orientation="Horizontal" Background="#244439" HorizontalAlignment="Center">
-                            <Button Command="{Binding ViewStaff}" Content="Voir" HorizontalAlignment="Right" Style="{StaticResource MaterialDesignToolForegroundButton}" Width="188" Padding="2 0 0 0"
+
+
+                        
+                 
+                        <Separator Margin="0,9,0,5" Style="{StaticResource MaterialDesignLightSeparator}"/>
+                        <StackPanel Margin="8 0 8 0" Orientation="Horizontal" Background="#244439" HorizontalAlignment="Center">
+                            <Button Name="ViewStaff" Command="{Binding ViewStaff}" Content="Voir" HorizontalAlignment="Right" Style="{StaticResource MaterialDesignToolForegroundButton}" Width="188" Padding="2 0 0 0"
                             materialDesign:RippleAssist.IsCentered="True" Height="47">
 
                             </Button>
@@ -68,23 +72,18 @@
                 </materialDesign:Card>
                 <!--info2-->
 
-                <materialDesign:Card  Margin="4 4 0 0" Background="#f18f5e"
+                <materialDesign:Card Height="190" Margin="4 4 0 0" Background="#f18f5e"
                   Foreground="{DynamicResource PrimaryHueDarkForegroundBrush}"
                   Width="200"
                   Padding="8">
                     <StackPanel>
                         <TextBlock HorizontalAlignment="Center" FontWeight="Bold" FontSize="16" Margin="16 16 12 8" >Congés</TextBlock>
                         <materialDesign:PackIcon HorizontalAlignment="Center" Height="50" Width="150" Kind="Beach" />
-                        <Separator Style="{StaticResource MaterialDesignLightSeparator}"/>
-                        <StackPanel Margin="8 0 8 8" >
-
-                            <TextBlock HorizontalAlignment="Center" FontWeight="Bold" FontSize="20">26</TextBlock>
-
-
-                        </StackPanel>
+                        
+                
                         <Separator Style="{StaticResource MaterialDesignLightSeparator}"/>
                         <StackPanel Margin="8 0 8 8" Orientation="Horizontal" Background="#d87556" HorizontalAlignment="Center">
-                            <Button Content="Voir" HorizontalAlignment="Right" Style="{StaticResource MaterialDesignToolForegroundButton}" Width="188" Padding="2 0 0 0"
+                            <Button Name="ViewStaffLeave" Command="{Binding ViewStaffLeave}" Content="Voir" HorizontalAlignment="Right" Style="{StaticResource MaterialDesignToolForegroundButton}" Width="188" Padding="2 0 0 0"
                             materialDesign:RippleAssist.IsCentered="True" Height="47">
 
                             </Button>
@@ -93,13 +92,13 @@
                 </materialDesign:Card>
 
                 <!--info3-->
-                <materialDesign:Card  Margin="4 4 0 0" Background="#a9aed8"
+                <materialDesign:Card Height="190"  Margin="4 4 0 0" Background="#a9aed8"
                   Foreground="{DynamicResource PrimaryHueDarkForegroundBrush}"
                   Width="200"
                   Padding="8">
                     <StackPanel>
                         <TextBlock HorizontalAlignment="Center" FontWeight="Bold" FontSize="16" Margin="16 16 12 8" >Rapports</TextBlock>
-                        <materialDesign:PackIcon HorizontalAlignment="Center" Height="50" Width="150" Kind="ChartBar" />
+                        <materialDesign:PackIcon HorizontalAlignment="Center" Height="50" Width="150" Kind="FileChart" />
                         <Separator Style="{StaticResource MaterialDesignLightSeparator}"/>
                         <StackPanel Margin="8 0 8 8" Orientation="Horizontal" Background="#907db8" HorizontalAlignment="Center">
                             <Button  Content="Voir" HorizontalAlignment="Right" Style="{StaticResource MaterialDesignToolForegroundButton}" Width="188" Padding="2 0 0 0"
@@ -127,72 +126,17 @@
 
             <StackPanel Orientation="Horizontal">
 
-
-                <materialDesign:Card Margin="4 4 0 0" Background="#907db8"
-                      Foreground="{DynamicResource PrimaryHueDarkForegroundBrush}"
-                      Padding="0"
-                      Width="200">
+                <materialDesign:Card Height="375" Background="white" Margin="4 4 0 0" Width="225">
                     <Grid>
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="Auto" />
-                            <RowDefinition Height="Auto" />
-                            <RowDefinition Height="Auto" />
-                        </Grid.RowDefinitions>
-                        <TextBlock Grid.Row="0" Margin="16 16 16 4" Style="{StaticResource MaterialDesignHeadlineTextBlock}">Business Unit</TextBlock>
-                        <Separator Grid.Row="1" Style="{StaticResource MaterialDesignLightSeparator}"/>
-                       
-                        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="16 0 16 8" HorizontalAlignment="Right">
-                            <Button HorizontalAlignment="Right" Style="{StaticResource MaterialDesignToolForegroundButton}" Width="30" Padding="2 0 2 0"
-                                materialDesign:RippleAssist.IsCentered="True">
-                                <materialDesign:PackIcon Kind="Pin" />
-                            </Button>
-                            <materialDesign:PopupBox HorizontalAlignment="Right"  Padding="2 0 2 0">
-                                <StackPanel>
-                                    <Button Content="Modifier"/>
-                                    <Button Content="Supprimer"/>
-                                </StackPanel>
-                            </materialDesign:PopupBox>
-                        </StackPanel>
-                    </Grid>
-                </materialDesign:Card>
-
-                <materialDesign:Card Background="#061e31" Margin="4 4 0 0" Width="220">
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="40"/>
-                            <RowDefinition Height="auto"/>
-                            <RowDefinition Height="40" />
-                            <RowDefinition Height="Auto" />
-                        </Grid.RowDefinitions>
-                        <Grid Grid.Row="0">
-                            <TextBlock Foreground="#ebebeb"  VerticalAlignment="Center" HorizontalAlignment="Center" Style="{StaticResource MaterialDesignHeadlineTextBlock}"  Text="Departements"></TextBlock>
-                        </Grid>
-                        <Grid Grid.Row="1">
-                            <Separator Grid.Row="1" Background="#ebebeb" Style="{StaticResource MaterialDesignDarkSeparator}" Margin="8 0 8 0"/>
-                        </Grid>
-                        <!--liste departement-->
-                        <Grid Grid.Row="2">
-
-                        </Grid>
-
-
-
-                        <StackPanel Grid.Row="3">
-                            <Button Background="#ebebeb" Style="{StaticResource MaterialDesignFlatButton}" Foreground="#061e31" HorizontalAlignment="Left" Margin="0 4 8 8">Ajouter</Button>
-                        </StackPanel>
-                    </Grid>
-                </materialDesign:Card>
-                <materialDesign:Card Background="white" Margin="4 4 0 0" Width="225">
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition></RowDefinition>
-                            <RowDefinition></RowDefinition>
-                            <RowDefinition></RowDefinition>
+                            <RowDefinition ></RowDefinition>
+                            <RowDefinition Height="3*"></RowDefinition>
+                            <RowDefinition Height="60"></RowDefinition>
                         </Grid.RowDefinitions>
                         <Grid Grid.Row="0">
                             <StackPanel>
-                                <TextBlock  Foreground="#d87556" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{StaticResource MaterialDesignHeadlineTextBlock}" Text="Nouveau employé" Margin="14,5,13,0"/>
-                                <materialDesign:PackIcon Height="40" Width="50" HorizontalAlignment="Center" Foreground="#d87556" Kind="AccountMultiple"/>
+                                <TextBlock  Foreground="#061e31" VerticalAlignment="Center" HorizontalAlignment="Center" Style="{StaticResource MaterialDesignHeadlineTextBlock}" Text="Nouveau employé" Margin="14,0,13,0"/>
+                                <materialDesign:PackIcon Height="40" Width="50" HorizontalAlignment="Center" Foreground="#061e31" Kind="AccountMultiple"/>
                                 <Separator Style="{StaticResource MaterialDesignDarkSeparator}" Margin="8 0 8 0"/>
                             </StackPanel>
                         </Grid>
@@ -200,20 +144,20 @@
                         <Grid Grid.Row="1">
                             <StackPanel>
 
-                                <ComboBox FontWeight="DemiBold" Margin="0,0,0,15" Foreground="#d87556" HorizontalAlignment="Center" Width="150"   materialDesign:HintAssist.Hint="Business Unit" Style="{StaticResource MaterialDesignFloatingHintComboBox}">
+                                <ComboBox  Margin="0,0,0,15" Foreground="#061e31" HorizontalAlignment="Center" Width="150"   materialDesign:HintAssist.Hint="Business Unit" Style="{StaticResource MaterialDesignFloatingHintComboBox}">
                                     <ComboBoxItem>Production</ComboBoxItem>
                                     <ComboBoxItem>Administration-IT</ComboBoxItem>
 
                                 </ComboBox>
 
-                                <ComboBox FontWeight="DemiBold" Margin="0,0,0,15" Foreground="#d87556" HorizontalAlignment="Center" Width="150"  materialDesign:HintAssist.Hint="Departement" Style="{StaticResource MaterialDesignFloatingHintComboBox}">
+                                <ComboBox  Margin="0,0,0,15" Foreground="#061e31" HorizontalAlignment="Center" Width="150"  materialDesign:HintAssist.Hint="Departement" Style="{StaticResource MaterialDesignFloatingHintComboBox}">
                                     <ComboBoxItem>Analyse</ComboBoxItem>
                                     <ComboBoxItem>Decoupe</ComboBoxItem>
                                     <ComboBoxItem>Autre Service</ComboBoxItem>
                                     <ComboBoxItem>IT</ComboBoxItem>
                                 </ComboBox>
 
-                                <ComboBox FontWeight="DemiBold" Foreground="#d87556" HorizontalAlignment="Center" Width="150"   materialDesign:HintAssist.Hint="Poste" Style="{StaticResource MaterialDesignFloatingHintComboBox}">
+                                <ComboBox  Foreground="#061e31" HorizontalAlignment="Center" Width="150"   materialDesign:HintAssist.Hint="Poste" Style="{StaticResource MaterialDesignFloatingHintComboBox}">
                                     <ComboBoxItem>Android</ComboBoxItem>
                                     <ComboBoxItem>iOS</ComboBoxItem>
                                     <ComboBoxItem>Linux</ComboBoxItem>
@@ -223,8 +167,94 @@
                             </StackPanel>
                         </Grid>
                         <Grid Grid.Row="2">
-                            <StackPanel Margin="0,20,0,0">
-                                <Button Background="#d87556" Style="{StaticResource MaterialDesignFlatButton}" Foreground="White" HorizontalAlignment="Left" Margin="0 10 8 8">Ajouter</Button>
+                            <StackPanel>
+                                <Separator Style="{StaticResource MaterialDesignDarkSeparator}" Margin="8 0 8 0"/>
+                                <Button Margin="0,0,10,0"  HorizontalAlignment="Right" Background="#061e31" Style="{StaticResource MaterialDesignFloatingActionMiniButton}"
+                        ToolTip="Nouveau employé">
+                                    <materialDesign:PackIcon Kind="Plus" Height="24" Width="24" />
+                                </Button>
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                </materialDesign:Card>
+
+                <materialDesign:Card Height="375" Background="#003d64" Margin="4 4 0 0" Width="220">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition Height="3*"/>
+                            <RowDefinition Height="60" />
+
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <StackPanel Margin="0,0,0,0">
+                                <TextBlock Foreground="#ebebeb"  VerticalAlignment="Center" HorizontalAlignment="Center" Style="{StaticResource MaterialDesignHeadlineTextBlock}"  Text="Business Unit"/>
+                                <materialDesign:PackIcon Foreground="#ebebeb" Height="40" Width="50" HorizontalAlignment="Center"  Kind="HomeModern"/>
+                                <Separator Style="{StaticResource MaterialDesignLightSeparator}" Margin="8 0 8 0"/>
+                            </StackPanel>
+                        </Grid>
+
+                        <!--liste departement-->
+                        
+                        
+                        <Grid Grid.Row="1">
+                            <ListBox  Foreground="White">
+                                <ListBoxItem>Production</ListBoxItem>
+                                <ListBoxItem>Administration-IT</ListBoxItem>
+                            </ListBox>
+                        </Grid>
+
+
+                        <Grid Grid.Row="2">
+                            <StackPanel >
+                                <Separator Style="{StaticResource MaterialDesignLightSeparator}" Margin="8 0 8 0"/>
+                                <Button Margin="0,0,10,0"  HorizontalAlignment="Right" Background="#061e31" Style="{StaticResource MaterialDesignFloatingActionMiniButton}"
+                        ToolTip="Ajouter un Business Unit">
+                                    <materialDesign:PackIcon Kind="Plus" Height="24" Width="24" />
+                                </Button>
+
+                            </StackPanel>
+                        </Grid>
+                    </Grid>
+                </materialDesign:Card>
+               
+                
+
+                <materialDesign:Card Height="375" Background="#061e31" Margin="4 4 0 0" Width="220">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition Height="3*"/>
+                            <RowDefinition Height="60" />
+
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <StackPanel Margin="0,0,0,0">
+                                <TextBlock Foreground="#ebebeb"  VerticalAlignment="Center" HorizontalAlignment="Center" Style="{StaticResource MaterialDesignHeadlineTextBlock}"  Text="Departements"/>
+                                <materialDesign:PackIcon Foreground="#ebebeb" Height="40" Width="50" HorizontalAlignment="Center"  Kind="HomeVariant"/>
+                                <Separator Style="{StaticResource MaterialDesignLightSeparator}" Margin="8 0 8 0"/>
+                            </StackPanel>
+                        </Grid>
+
+                        <!--liste departement-->
+                        <Grid Grid.Row="1">
+                            <ListBox  Foreground="White">
+                                <ListBoxItem>Analyse</ListBoxItem>
+                                <ListBoxItem Content="Decoupe"/>
+                                <ListBoxItem>IT</ListBoxItem>
+                                <ListBoxItem>Autre service</ListBoxItem>
+                            </ListBox>
+                        </Grid>
+                         
+
+                        
+                        <Grid Grid.Row="2">
+                            <StackPanel >
+                                <Separator Style="{StaticResource MaterialDesignLightSeparator}" Margin="8 0 8 0"/>
+                                <Button Margin="0,0,10,0"  HorizontalAlignment="Right" Background="#061e31" Style="{StaticResource MaterialDesignFloatingActionMiniButton}"
+                        ToolTip="Ajouter un departement">
+                                    <materialDesign:PackIcon Kind="Plus" Height="24" Width="24" />
+                                </Button>
                             </StackPanel>
                         </Grid>
                     </Grid>

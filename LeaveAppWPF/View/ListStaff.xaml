@@ -26,18 +26,28 @@
                         </Button>
 
                         <Separator />
-
-
-                        <Button ToolTip="Chercher">
-                            <materialDesign:PackIcon Kind="Magnify" />
+                        <Button ToolTip="Voir les details de l'employé">
+                            <materialDesign:PackIcon Kind="eye" />
                         </Button>
                         <Separator />
+                        <Button ToolTip="Chercher un employé">
+                            <materialDesign:PackIcon Kind="Magnify" />
+                        </Button>
+                        <Separator/>
+                       
+                       
 
                     </ToolBar>
                 </ToolBarTray>
 
-                <TextBox Foreground="#061e31" VerticalAlignment="Center" Margin="10,0,0,-3" Width="200"  materialDesign:HintAssist.Hint="Prénom"></TextBox>
-                <ComboBox Foreground="#061e31" VerticalAlignment="Center" Margin="30,0,0,0" Width="200"  materialDesign:HintAssist.Hint="Departement"></ComboBox>
+                <TextBox Style="{StaticResource MaterialDesignFloatingHintTextBox}"   Foreground="#061e31" VerticalAlignment="Center" Margin="10,0,0,-3" Width="200"  materialDesign:HintAssist.Hint="Prénom"></TextBox>
+               
+                <ComboBox Style="{StaticResource MaterialDesignFloatingHintComboBox}" materialDesign:HintAssist.Hint="Departement" Foreground="#061e31" VerticalAlignment="Center" Margin="15,0,0,0" Width="200"  >
+                    <ComboBoxItem>Analyse</ComboBoxItem>
+                    <ComboBoxItem>Decoupe</ComboBoxItem>
+                    <ComboBoxItem>Autre Service</ComboBoxItem>
+                    <ComboBoxItem>IT</ComboBoxItem>
+                </ComboBox>
 
             </StackPanel>
         </Grid>

@@ -2,7 +2,8 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:LeaveAppWPF"
-             StartupUri="MainWindow.xaml" 
+             StartupUri="Login.xaml" 
+             
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:vm="clr-namespace:LeaveAppWPF.ViewModel"
              xmlns:vw="clr-namespace:LeaveAppWPF.View"
@@ -15,7 +16,7 @@
         </ResourceDictionary>
         <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml">
         </ResourceDictionary>
-        <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.LightBlue.xaml">
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.Blue.xaml">
         </ResourceDictionary>
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Indigo.xaml">
                 </ResourceDictionary>
@@ -25,6 +26,11 @@
                 <vw:Dashboard/>
             </DataTemplate>
 
+
+            <DataTemplate DataType="{x:Type vm:ListStaffLeaveViewModel}">
+                <vw:ListStaffLeave/>
+            </DataTemplate>
+        
             <DataTemplate DataType="{x:Type vm:NewStaffViewModel}">
                 <vw:NewStaff/>
             </DataTemplate>

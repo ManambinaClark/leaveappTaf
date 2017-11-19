@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LeaveAppWPF"
         mc:Ignorable="d"
-        Title="LeaveApp" Height= "900" Width="1320"
+        Title="LeaveApp" Height= "850" Width="1320"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
         TextElement.FontWeight="Regular"
@@ -14,10 +14,12 @@
         TextOptions.TextRenderingMode="Auto"        
         Background="{DynamicResource MaterialDesignPaper}"
         FontFamily="{DynamicResource MaterialDesignFont}"
-        DataContext="{Binding Main,Source={StaticResource Locator}}">
+        DataContext="{Binding Main,Source={StaticResource Locator}}"
+        WindowStartupLocation="CenterScreen"
+       >
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition Height="15*"></RowDefinition>
         </Grid.RowDefinitions>
@@ -25,29 +27,26 @@
         <Grid Grid.Row="0">
             <DockPanel Background="#061e31">
                 <Menu  Background="#061e31"  HorizontalAlignment="Right"   IsMainMenu="True">
-                    <MenuItem Foreground="White" Background="#061e31" Height="41" Width="51">
+                    <MenuItem   Foreground="White" Background="#061e31" Height="30" Width="49">
                         <MenuItem.Icon>
-                            <materialDesign:PackIcon Kind="AccountCircle" />
+                            <materialDesign:PackIcon Kind="DotsVertical" />
                         </MenuItem.Icon>
-                        <MenuItem Foreground="White" Background="#003d64" Header="Mon Profil">
-                            <MenuItem.Icon>
-                                <materialDesign:PackIcon Kind="Account" />
-                            </MenuItem.Icon>
-                        </MenuItem>
-
-
-
-                        <MenuItem Margin="0,4,0,0" Foreground="White" Background="#003d64"  Header="Paramètre" >
+                        <MenuItem Foreground="White" Background="#003d64" Header="Paramètre">
                             <MenuItem.Icon>
                                 <materialDesign:PackIcon Kind="Settings" />
                             </MenuItem.Icon>
                         </MenuItem>
-
-
-
-                        <MenuItem Margin="0,4,0,0" Foreground="White" Background="#003d64"  Header="Déconnexion" >
+                        <MenuItem Margin="0,4,0,0" Foreground="White" Background="#003d64"  Header="A Propos" >
                             <MenuItem.Icon>
-                                <materialDesign:PackIcon Kind="Logout" />
+                                <materialDesign:PackIcon Kind="DotsHorizontal" />
+                            </MenuItem.Icon>
+                        </MenuItem>
+
+                        <Separator Style="{StaticResource MaterialDesignLightSeparator}"/>
+                        
+                        <MenuItem Margin="0,4,0,0" Foreground="White"   Header="Quitter" >
+                            <MenuItem.Icon>
+                                <materialDesign:PackIcon Kind="ExitToApp" />
                             </MenuItem.Icon>
                         </MenuItem>
                     </MenuItem>
@@ -66,11 +65,12 @@
 
                 <DockPanel >
                     <TextBlock FontWeight="DemiBold" FontSize="25" VerticalAlignment="Center" Margin="10,0,0,0" Text="LeaveApp"></TextBlock>
-                    <DockPanel HorizontalAlignment="Right">
-                        <TextBlock VerticalAlignment="Center"  Margin="5,0,0,0" Text="Bienvenue"></TextBlock>
-                        <TextBlock VerticalAlignment="Center"  Margin="3,0,20,0" Text="{Binding UserName}"></TextBlock>
+                    <DockPanel  HorizontalAlignment="Right">
+                        <materialDesign:PackIcon VerticalAlignment="Center" HorizontalAlignment="Center" Height="25" Width="50" Kind="Emoticon" />
+                        <TextBlock VerticalAlignment="Center" FontSize="13" FontWeight="Bold"  Margin="0,0,0,0" Text="Bonjour"></TextBlock>
+                        <TextBlock Foreground="#061e31" VerticalAlignment="Center" FontSize="13"  Margin="3,0,20,0" Text="{Binding UserName}"></TextBlock>
                     </DockPanel>
-                    </DockPanel>
+                </DockPanel>
             </Border>
         </Grid>
         <!--Corps-->
@@ -109,10 +109,10 @@
 
                     <StackPanel  Background="#003d64">
 
-                        <Button Command="{Binding GoToDashboard }"  BorderBrush="#003d64" Margin="0,10,0,0" Background="#003d64" Content="Tableau de Bord"> </Button>
-                        <Button Command="{Binding GoToMyLeave}" BorderBrush="#003d64" Margin="0,10,0,0" Background="#003d64" Content="Mes congés"></Button>
-                        <Button Command="{Binding GoToAskLeave}" BorderBrush="#003d64" Margin="0,10,0,0" Background="#003d64" Content="Demander Congé"></Button>
-                  
+                        <Button   Foreground="#9e9e9e" FontSize="12" Command="{Binding GoToDashboard }"  BorderBrush="#003d64" Margin="0,10,0,0" Background="#003d64" Content="Tableau de Bord"></Button>
+                        <Button   Foreground="#9e9e9e" FontSize="12" Command="{Binding GoToMyLeave}" BorderBrush="#003d64" Margin="0,10,0,0" Background="#003d64" Content="Mes congés"></Button>
+                        <Button   Foreground="#9e9e9e" FontSize="12" Command="{Binding GoToAskLeave}" BorderBrush="#003d64" Margin="0,10,0,0" Background="#003d64" Content="Demander Congé"></Button>
+
                     </StackPanel>
                 </Grid>
             </Grid>
@@ -120,10 +120,10 @@
             <!--Corps pour les usercontrol-->
 
             <Grid Grid.Column="1">
-                
-                    
-                    <UserControl Margin="20" Content="{Binding CurrentView,Mode=OneWay}"/>
-                
+
+
+                <UserControl Margin="20" Content="{Binding CurrentView,Mode=OneWay}"/>
+
             </Grid>
         </Grid>
     </Grid>
