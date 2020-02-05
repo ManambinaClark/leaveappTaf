@@ -22,6 +22,7 @@ namespace LeaveAppWPF
         public Login()
         {
             InitializeComponent();
+			//test miova
         }
     }
 }
